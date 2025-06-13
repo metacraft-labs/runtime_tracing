@@ -335,6 +335,10 @@ pub enum ValueRecord {
         i: i64,
         type_id: TypeId,
     },
+    Int128 {
+        i: i128,
+        type_id: TypeId,
+    },
     Float {
         f: f64,
         type_id: TypeId,
